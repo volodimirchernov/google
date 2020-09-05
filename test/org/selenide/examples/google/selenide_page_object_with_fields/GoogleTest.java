@@ -17,4 +17,4 @@ public class GoogleTest {
     results.getResults().shouldHave(sizeGreaterThan(1));
     results.getResult(0).shouldHave(text("Selenide: concise UI tests in Java"));
   }
-}
+} // test
