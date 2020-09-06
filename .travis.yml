@@ -12,7 +12,7 @@ jobs:
       name: "Maven Chrome"
     - script: mvn clean test -P firefox
       name: "Maven Firefox"
-    - script: ./gradlew chrome --no-daemon --console=plain -i
-      name: "Gradle Chrome"
-    - script: ./gradlew firefox --no-daemon --console=plain -i
-      name: "Gradle Firefox"
+#    - script: ./gradlew chrome --no-daemon --console=plain -i
+#      name: "Gradle Chrome"
+#    - script: ./gradlew firefox --no-daemon --console=plain -i
+#      name: "Gradle Firefox"
